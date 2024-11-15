@@ -1,0 +1,32 @@
+{
+  "name": "@jidan/simple-js",
+  "version": "1.0.0",
+  "description": "Library to simplify or shorten syntax in JavaScript",
+  "main": "dist/simple.umd.js",
+  "module": "dist/simple.esm.js",
+  "types": "types/simple-js.d.ts",
+  "exports": {
+    "require": "./dist/simple.umd.js",
+    "import": "./dist/simple.esm.js"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Jidan",
+  "license": "MIT",
+  "keywords": [
+    "dom",
+    "simplejs"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jidandev/simple-js"
+  }
+}

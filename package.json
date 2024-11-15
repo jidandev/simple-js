@@ -1,5 +1,5 @@
 {
-  "name": "@jidan/simple-js",
+  "name": "@jidan/simplejs",
   "version": "1.0.0",
   "description": "Library to simplify or shorten syntax in JavaScript",
   "main": "dist/simple.umd.js",

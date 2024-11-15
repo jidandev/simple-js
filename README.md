@@ -7,18 +7,18 @@ This package is to shorten the syntax in JavaScript, the library features are si
 ## CDN
 ### Script Tag
 ```sh
-<script src="https://cdn.jsdelivr.net/npm/@jidan/simple-js/dist/simple.umd.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@jidan/simplejs/dist/simple.umd.js"></script> 
 ```
 
 ## NPM
 ### Installation
 ```bash
 $ npm init -y
-$ npm install parcel-bundler @jidan/simple-js 
+$ npm install parcel-bundler @jidan/simplejs 
 ```
 ### Usage
 ```js
-import Simple from "@jidan/simple-js"
+import Simple from "@jidan/simplejs"
 ```
 ### Run Project
 ```bash

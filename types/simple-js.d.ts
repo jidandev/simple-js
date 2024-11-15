@@ -1,4 +1,4 @@
-declare module '@jidan/simple-js' {
+declare module '@jidan/simplejs' {
   export function Simple(selector: string): HTMLElement | null;
   export function click(selector: string | HTMLElement, callback: Function): void;
   export function dbclick(selector: string | HTMLElement, callback: Function): void;

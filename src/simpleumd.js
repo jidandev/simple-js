@@ -948,6 +948,25 @@
     return match ? match[2] : null;
   };
 
+  Simple.lyrics = function(text, delay, duration) {
+    const totalCharacters = text.length;
+    const characterDuration = duration / totalCharacters; 
+
+    // Menunggu delay sebelum mulai menampilkan teks
+    setTimeout(() => {
+      let i = 0;
+      const interval = setInterval(() => {
+        if (i < text.length) {
+          process.stdout.write(text[i]); // Menampilkan karakter satu per satu
+          i++;
+        } else {
+          clearInterval(interval); // Menghentikan interval setelah selesai
+          process.stdout.write("\n"); // Tambahkan baris baru setelah selesai
+        }
+      }, characterDuration); // Menampilkan tiap karakter berdasarkan perhitungan durasi
+    }, delay); // Tunggu delay sebelum mulai menampilkan teks
+  }
+
   global.Simple = Simple;
 
 

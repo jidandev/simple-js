@@ -294,6 +294,17 @@ Simple.triggerScroll(triggerElement: string | HTMLElement, triggedElement: strin
 Simple.triggerScroll(".container", ".object", "scrolled") 
 ```
 
+### Text Lyrics ( Node Js )
+create progress text in console
+#### Usage
+```js
+Simple.lyrics(text: string, delay: number, duration: number);
+```
+#### Example
+```js
+Simple.lyrics("I admit it, another ho got me finished", 9500, 3000);  
+```
+
 ### Other Syntax
 cape ngetik, jadi gua kasih sintaks nya aja 
 ```js
